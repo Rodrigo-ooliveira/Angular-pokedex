@@ -5,6 +5,16 @@
   flex-direction: column;
   background-color: #232323;
   border-radius: 10px;
+  margin: auto;
+}
+
+.card_input {
+  border: #578699 solid 3px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .card__title {
@@ -17,6 +27,9 @@
 }
 
 .card__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #616161;
   width: 90%;
   margin-left: auto;
